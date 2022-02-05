@@ -1,0 +1,72 @@
+i{
+    font-size: 3rem;
+    margin-top: 1.2rem;
+}
+.card{
+    box-shadow: 0px 0px 18px 0px black;
+    background-color:rgb(2, 2, 2);
+    color: rgb(255, 255, 255);
+}
+
+.card:hover{
+  transform: scale(0.9,0.9);
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  color: rgb(0, 0, 0);
+  background-color:rgb(253, 252, 252);
+}
+
+
+ .i{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+ .r{
+  font-size: 3rem;
+  margin-top: 1.2rem;
+ }
+
+
+b{
+  animation: nam 3s ease-out infinite forwards;
+  font-family: 'Courgette', cursive;
+}
+
+h4{
+  color: blue;
+}
+ 
+
+@keyframes nam{
+ 
+  0%{
+      color: rgb(0, 255, 55);
+       text-shadow: 1px 1px;
+    }
+    50%{
+      color: white;
+      
+    }
+    75%{
+      color: black;
+    }
+  
+  100%{
+    color: rgb(184, 6, 255);
+    text-shadow: 1px 1px;
+    }
+}
+
+.hh{
+  color: rgb(252, 40, 40);
+}
+  
+.ja{
+  color: green;
+}
+
+p{
+  height: 6rem;
+}

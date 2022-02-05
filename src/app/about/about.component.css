@@ -1,0 +1,42 @@
+.s{
+    color: rgb(4, 252, 239);
+}
+p{
+
+    color: rgb(241, 250, 248);
+}
+span{
+    color: rgb(23, 248, 34);
+}
+.n{
+    background-color: black;
+    color: white;
+}
+.co{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+i{
+    font-size: 2rem;
+    color: rgb(244, 8, 252);
+}
+
+.o{
+    color: rgb(12, 250, 238);
+}
+
+
+@media screen and (max-width:480px) and (min-width:360px){
+
+    span{
+        color: rgb(243, 166, 253);
+        font-size: 0.8rem;
+    }
+
+    .anker{
+        color: rgb(247, 196, 252);
+        font-size: 0.8rem;
+    }
+
+}

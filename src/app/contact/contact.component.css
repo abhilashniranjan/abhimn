@@ -1,0 +1,33 @@
+
+ 
+  .form-group input::placeholder {
+    color: rgb(8, 12, 247);
+    font-size: 1rem;
+  }
+  
+  input.ng-invalid.ng-touched {
+    border: 2px solid red;
+    color: red;
+    background: rgb(253, 196, 250);
+  }
+  
+  
+  input.ng-valid {
+    border: 2px solid rgb(13, 252, 85);
+    color: rgb(12, 12, 12);
+    background: rgb(149, 252, 192);
+  }
+  
+  .card{
+      box-shadow: 0px 0px 18px 0px rgb(163, 161, 161);
+  }
+  input{
+      border-radius: 5rem;
+  }
+  i{
+      color: rgb(145, 10, 255);
+      font-size: 1.3rem;
+  }
+  form{
+    background: linear-gradient(rgb(203, 252, 205),rgb(250, 184, 244));
+  }

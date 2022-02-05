@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+.in{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   flex-wrap: wrap;
+}
+
+iframe {
+    width: 400px;
+    height:270px;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:480px) and (min-width:360px){
+
+
+    iframe {
+        width: 90vw;
+        height:50vw;
+        flex-wrap: wrap;
+    }
+    
+}
+h4{
+    color: blue;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+p{
+    font-size: 0.9rem;
+    color:rgb(112, 7, 133);
+}

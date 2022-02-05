@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.wrapper{
+  display: flex;
+}
+.wrapper .static-txt{
+  color: rgb(214, 7, 255);
+  font-size: 2rem;
+ margin-top: 1rem;
+}
+.wrapper .dynamic-txts{
+  margin-left: 10px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  font-family: 'Courgette', cursive;
+  list-style: none;
+  color: #2b08f3;
+  font-size: 2rem;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  padding-top: 2.5rem;
+  position: relative;
+  line-height:1.5rem;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:white;
+  border-left: 2px solid #37ff25;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 1rem);
+  }
+  100%{
+    left: 0;
+  }
+}
+.uu{
+  margin-top: 9rem;
+}
+h4{
+  color: rgb(71, 3, 117);
+  font-family: 'Poppins', sans-serif;
+}
+h6{
+  color: rgb(115, 115, 116);
+  font-family: 'Courgette', cursive;
+}
+@media screen and (max-width:480px) and (min-width:360px){
+  .uu{
+    margin-top:-5px;
+  }
+  h6{
+    font-size: 0.8rem;
+  }
+  h4{
+    color: rgb(71, 3, 117);
+    font-size: 0.9rem;
+  }
+  h6{
+    color: rgb(115, 115, 116);
+    font-size: 0.9rem;
+  }
+  .wrapper .static-txt{
+    color: rgb(214, 7, 255);
+    font-size: 1.2rem;
+   margin-top: 1.7rem;
+  }
+
+  .dynamic-txts li{
+    font-family: 'Courgette', cursive;
+    list-style: none;
+    color: #2b08f3;
+    font-size: 1rem;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+
+}
+
+
+.fa-eye{
+  font-size: 1.1rem;
+  color: #55fd12;
+}
+
+.kk{
+  font-size: 1.3rem;
+  color: rgb(196, 2, 245);
+}
+b{
+  font-size: 1.2rem;
+  color: #2b08f3;
+}

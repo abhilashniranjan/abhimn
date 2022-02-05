@@ -1,0 +1,45 @@
+<app-nav></app-nav>
+<div class="row">
+       <div class="col-6">
+          <div class="container my-5">
+            <h3>Contact Me</h3>
+           <br>
+             <i class="fa fa-phone"><h3>Call Us On</h3></i>
+             <h6>+91 9741838611</h6>
+              <br>
+              <i class="fa fa-map-marker-alt"><h3>Location</h3></i>
+              <h4>Bangalore</h4>
+               <br>
+               <i class="fa fa-envelope"><h3>Email</h3></i>
+               <h4>abhilashmn888@gmail.com</h4>
+               <br>
+               <i class="fa fa-globe-europe"><h3>Website</h3></i>
+               <h4><a href="https://abhimn.heroku.com/">abhimnheroku.com</a></h4>
+            </div>
+       </div>
+       <div class="col-6">
+        
+    <form novalidate autocomplete="off" #form ="ngForm" (submit)="onSubmit(form)" class="mx-2 card my-5">
+        <p class="mx-2 my-1"><b>Have You Contact send massage,I will reply</b></p>
+        <div class="form-group my-1 mx-3">
+        <input class="form-control form-control-lg" type="text" placeholder="Name"name="Name" #Name="ngModel"[(ngModel)]="ame" required > 
+        </div>
+          <div class="form-group my-2 mx-3">
+            <input type="email" class="form-control form-control-lg" placeholder="EmailId"name="EmailId" #FullName="ngModel" [(ngModel)]="ail"required pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+$">
+            </div>
+            <div class="form-group my-2 mx-3">
+                <input class="form-control form-control-lg" type="text" placeholder="Subject"name="Name" #Name="ngModel"[(ngModel)]="umber" required > 
+                </div>
+              <div class="form-group my-2 mx-3">
+                <button class="btn btn-primary form-control"  type="submit"value="submit"[disabled]="!form.valid">Submit</button>
+        <br>      
+         
+      </div>
+       
+        </form>
+       </div>
+   </div>
+
+  
+
+  
